@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title>Webbutik</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Produkter -->
+    <div class="container">
+        <div class="row">
+            <!-- Produkt -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="produktbild.jpg" alt="Produktbild">
+                    <div class="card-body">
+                        <h5 class="card-title">Produktnamn</h5>
+                        <p class="card-text">Produktbeskrivning</p>
+                        <a href="#" class="btn btn-primary">Lägg till i varukorg</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ... fler produkter ... -->
+        </div>
+    </div>
+
+    <!-- Varukorg -->
+    <div class="container">
+        <h2>Min varukorg</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Produkt</th>
+                    <th>Pris</th>
+                    <th>Antal</th>
+                    <th>Totalt pris</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Produkt i varukorg -->
+                <tr>
+                    <td>Produktnamn</td>
+                    <td>Pris</td>
+                    <td>Antal</td>
+                    <td>Totalt pris</td>
+                </tr>
+                <!-- ... fler produkter i varukorgen ... -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.frontend.js"></script>
+</body>
+</html>
